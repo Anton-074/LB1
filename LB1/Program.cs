@@ -7,7 +7,7 @@ namespace LB1
         static void Main()
         {
 
-            //Емельдяев Антон
+            //Емельдяев Антон выполнил
             using (ApplicationContext db = new ApplicationContext())
             {
                 User user1 = new User { Name = "Tom", Age = 33 };
