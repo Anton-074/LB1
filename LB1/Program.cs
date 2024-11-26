@@ -6,6 +6,8 @@ namespace LB1
         [STAThread]
         static void Main()
         {
+
+            //Емельдяев Антон
             using (ApplicationContext db = new ApplicationContext())
             {
                 User user1 = new User { Name = "Tom", Age = 33 };
